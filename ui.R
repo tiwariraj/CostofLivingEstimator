@@ -2,7 +2,7 @@ library(shiny)
 
 
 shinyUI(dashboardPage(skin = "blue",
-  dashboardHeader(title = "Cost of Living Generator",titleWidth = 250),
+  dashboardHeader(title = "Cost of Living Estimator",titleWidth = 250),
   
   sidebar <-  
     dashboardSidebar(width = 250,
@@ -62,7 +62,7 @@ shinyUI(dashboardPage(skin = "blue",
           
           tabName = "About",
           fluidRow(align = "center",box(width = 12,
-                                        h2(tags$b(tags$em("Welcome to Cost of Living Generator"))),
+                                        h2(tags$b(tags$em("Welcome to Cost of Living Estimator"))),
                                         tags$hr(),
                                         h4(tags$u('Explore cost of living parameters across  
                                            markets in the U.S.')),
